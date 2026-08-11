@@ -13,8 +13,7 @@ A proposta é evoluir a automação para que, além da coleta das mensagens, o s
 Atualmente, o projeto é capaz de:
 
 - Abrir o WhatsApp Web utilizando Playwright;
-- Mantém a sessão do WhatsApp Web armazenada localmente;
-- Evita a necessidade de realizar o login por QR Code a cada execução.
+- Mantém a sessão do WhatsApp Web armazenada localmente, evitando a necessidade de realizar o login por QR Code a cada execução.
 - Acessar um grupo específico;
 - Coletar as mensagens disponíveis;
 - Extrair e organizar as informações das mensagens;
