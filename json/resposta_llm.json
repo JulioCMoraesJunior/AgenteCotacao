@@ -1,0 +1,92 @@
+[
+  {
+    "usuario": "Carlos",
+    "produtos": {
+      "requeijao 180g tradicional": 10,
+      "requeijao 180g light": 0,
+      "requijao 400g tradicional": 0,
+      "cream chesse 150g": 0,
+      "nata 300g": 0
+    }
+  },
+  {
+    "usuario": "Marcos",
+    "produtos": {
+      "requeijao 180g tradicional": 0,
+      "requeijao 180g light": 5,
+      "requijao 400g tradicional": 0,
+      "cream chesse 150g": 0,
+      "nata 300g": 3
+    }
+  },
+  {
+    "usuario": "Juliana",
+    "produtos": {
+      "requeijao 180g tradicional": 0,
+      "requeijao 180g light": 0,
+      "requijao 400g tradicional": 8,
+      "cream chesse 150g": 0,
+      "nata 300g": 0
+    }
+  },
+  {
+    "usuario": "Pedro",
+    "produtos": {
+      "requeijao 180g tradicional": 0,
+      "requeijao 180g light": 0,
+      "requijao 400g tradicional": 0,
+      "cream chesse 150g": 4,
+      "nata 300g": 0
+    }
+  },
+  {
+    "usuario": "Carlos",
+    "produtos": {
+      "requeijao 180g tradicional": 2,
+      "requeijao 180g light": 0,
+      "requijao 400g tradicional": 0,
+      "cream chesse 150g": 0,
+      "nata 300g": 0
+    }
+  },
+  {
+    "usuario": "Roberto",
+    "produtos": {
+      "requeijao 180g tradicional": 10,
+      "requeijao 180g light": 0,
+      "requijao 400g tradicional": 0,
+      "cream chesse 150g": 5,
+      "nata 300g": 2
+    }
+  },
+  {
+    "usuario": "Marcos",
+    "produtos": {
+      "requeijao 180g tradicional": 3,
+      "requeijao 180g light": 7,
+      "requijao 400g tradicional": 0,
+      "cream chesse 150g": 0,
+      "nata 300g": 0
+    }
+  },
+  {
+    "usuario": "Pedro",
+    "produtos": {
+      "requeijao 180g tradicional": 10,
+      "requeijao 180g light": 0,
+      "requijao 400g tradicional": 6,
+      "cream chesse 150g": 0,
+      "nata 300g": 0
+    }
+  },
+  {
+    "usuario": "Ana",
+    "produtos": {
+      "requeijao 180g tradicional": 0,
+      "requeijao 180g light": 0,
+      "requijao 400g tradicional": 0,
+      "cream chesse 150g": 0,
+      "nata 300g": 5
+    }
+  }
+]

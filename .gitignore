@@ -1,6 +1,9 @@
 whatsapp.profile/
 teste_observer.py
 .idea/
-estado.json
+json/estado.json
 __pycache__/
 *.pyc
+teste.json
+chave.txt
+teste.xlsx
