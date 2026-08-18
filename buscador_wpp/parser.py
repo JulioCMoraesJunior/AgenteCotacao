@@ -35,5 +35,5 @@ def inject_json(mensagens):
 
 
     print(mensagem_json)
-    with open('estado.json', 'w', encoding='utf-8') as arquivo:
+    with open('json/estado.json', 'w', encoding='utf-8') as arquivo:
         json.dump(mensagem_json, arquivo, indent=4, ensure_ascii=False)
