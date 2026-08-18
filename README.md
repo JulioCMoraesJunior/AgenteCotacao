@@ -1,12 +1,12 @@
 # 🤖 Agente de Cotação
 
-Projeto de automação desenvolvido em Python para monitorar mensagens de um grupo específico do WhatsApp, identificar novas mensagens e estruturar os dados recebidos para utilização em processos de cotação.
+Projeto de automação desenvolvido em Python para monitorar mensagens de um grupo específico do WhatsApp, identificar novas mensagens e estruturar os dados recebidos para uso em processos de cotação.
 
 ---
 
 ## 🎯 Objetivo
 
-O projeto surgiu a partir de uma necessidade real: organizar pedidos recebidos através de mensagens no WhatsApp, reduzindo o trabalho manual necessário para coletar, interpretar e estruturar essas informações.
+O projeto surgiu de uma necessidade real: organizar pedidos recebidos por mensagens no WhatsApp, reduzindo o trabalho manual de coletar, interpretar e estruturar essas informações.
 
 A proposta é evoluir a automação para que o sistema seja capaz de:
 
@@ -42,7 +42,7 @@ Atualmente, o sistema é capaz de:
 
 O fluxo atual do projeto segue a seguinte estrutura:
 
-```text
+```
 WhatsApp Web
      │
      ▼
@@ -70,13 +70,13 @@ JSON estruturado
 Planilha Excel
 ```
 
-A comunicação entre o JavaScript executado no navegador e o Python é realizada utilizando a funcionalidade `expose_function()` do Playwright.
+A comunicação entre o JavaScript executado no navegador e o Python é realizada por meio da função `expose_function()` do Playwright.
 
 ---
 
 ## 🧠 Inteligência Artificial
 
-A Inteligência Artificial é utilizada para interpretar mensagens escritas de diferentes formas pelos clientes.
+A IA é utilizada para interpretar mensagens escritas de formas diferentes por cada cliente.
 
 Por exemplo, mensagens como:
 
@@ -86,9 +86,9 @@ ou:
 
 > "preciso de 5 light 180 e 3 nata 300g"
 
-podem ser interpretadas e associadas aos produtos disponíveis na planilha.
+são interpretadas e associadas aos produtos disponíveis na planilha.
 
-O resultado é estruturado em JSON contendo o cliente, os produtos e suas respectivas quantidades.
+O resultado é estruturado em JSON, contendo o cliente, os produtos e as respectivas quantidades.
 
 ### Exemplo
 
@@ -98,8 +98,8 @@ O resultado é estruturado em JSON contendo o cliente, os produtos e suas respec
     "produtos": {
         "requeijao 180g tradicional": 10,
         "requeijao 180g light": 0,
-        "requijao 400g tradicional": 0,
-        "cream chesse 150g": 0,
+        "requeijao 400g tradicional": 0,
+        "cream cheese 150g": 0,
         "nata 300g": 0
     }
 }
@@ -132,7 +132,7 @@ O resultado é estruturado em JSON contendo o cliente, os produtos e suas respec
 - [ ] Aprimorar a geração e atualização das planilhas
 - [ ] Implementar leitura e interpretação de informações presentes em imagens
 - [ ] Melhorar a persistência do estado da automação
-- [ ] Avaliar alternativas para execução local do modelo de Inteligência Artificial
+- [ ] Avaliar alternativas para execução local do modelo de IA
 - [ ] Preparar o projeto para distribuição como aplicação executável
 
 ---
@@ -141,4 +141,4 @@ O resultado é estruturado em JSON contendo o cliente, os produtos e suas respec
 
 🚧 **Projeto em desenvolvimento**
 
-O projeto está sendo desenvolvido de forma incremental, com cada etapa sendo testada antes da implementação da próxima funcionalidade.
+O desenvolvimento é feito de forma incremental, com cada etapa testada antes da implementação da próxima funcionalidade.
